@@ -1,0 +1,49 @@
+
+/* Estilo general del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;/* Tipo de letra */
+  background-color: rgb(231, 212, 186); /* Color de fondo */
+  margin: 0; /* Margen externo */
+  padding: 0; /* Margen interno */
+}
+
+/* Estilo del título principal */
+h1 {
+  color: #4682B4; /* Color del texto */
+  text-align: center; /* Alineación del texto */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del párrafo introductorio */
+p {
+  color: #333333; /* Color del texto */
+  font-size: 18px; /* Tamaño del texto */
+  text-align: justify; /* Alineación del texto */
+  margin: 20px; /* Margen externo */
+}
+
+/* Estilo de la lista de ambientadores */
+ul {
+  list-style-type: none; /* Tipo de viñeta */
+  margin: 0; /* Margen externo */
+  padding: 0; /* Margen interno */
+}
+
+/* Estilo de cada elemento de la lista */
+li {
+  display: inline-block; /* Disposición en línea */
+  width: 30%; /* Ancho del elemento */
+  margin: 10px; /* Margen externo */
+  padding: 10px; /* Margen interno */
+  border: 1px solid #4682B4; /* Borde del elemento */
+  border-radius: 10px; /* Radio del borde */
+}
+
+/* Estilo de la imagen de los ambientadores */
+img {
+  display: block; /* Disposición en bloque */
+  width: 50%; /* Ancho de la imagen */
+  height: auto; /* Altura automática de la imagen */
+  margin-left: auto; /* Margen izquierdo automático */
+  margin-right: auto; /* Margen derecho automático */
+}
